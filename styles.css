@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:black;
+  /* background-color: navy; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 80px; */
+  padding-top: 35px;
+  padding-left: 3%;
+  padding-right: 3%;
+  /* cursor: pointer; */
+}
+.logo {
+    color: rgb(255, 187, 0);
+}
+span {
+    color: rgb(42, 128, 165);
+}
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: bold;
+  color: darkseagreen;
+  /* transition: 0.1s ease; */
+  text-decoration: none;
+}
+
+nav a:hover  {
+  color: darkgreen;
+}
+
+.hero {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.hero h1 {
+font-size: 40px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.hero h3{
+  color:darkseagreen;
+}
+
+.hero h1 {
+  color:  white;
+}
+
+.hero a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  margin-top: 1.5%;
+  border-color:darkseagreen;
+  background-color: darkseagreen;
+  border-radius: 8px;
+  transition: .7s ease;
+}
+
+.hero a:hover{
+background-color: darkgreen;
+}
+
+.about{
+  margin-top: 10px;
+color: white;
+  width: 40%;
+}
+
+/* ABOUT SECTION */
+
+#aboutme {
+   margin-top: 100px;
+   margin-left: 3%;
+   width: 40%;
+   align-items: center;
+   color: white;
+}
+
+#aboutme h1 {
+  color: darkseagreen;
+  font-size: 40px;
+  text-align: center;
+}
+
+#aboutme p {
+  margin-top: 30px;
+}
+
+/* CONTACT SECTION */
+input {
+  color: white;
+}
+
+#contact {
+  /* background-color: orange; */
+  margin-top: 60px;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 3%;
+  width: 40%;
+}
+
+#contact h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#contact h3 {
+  text-align: center;
+  color:white
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  
+  
+}
+
+#contact form label {
+  font-size: 18px;
+  
+}
+
+#contact form input,
+#contact form textarea {
+  padding: 10px 12px;
+  border: darkseagreen;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: darkgreen;
+}
+
+#contact form button {
+  background-color: darkseagreen;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+
+#contact form button:hover {
+  background-color: darkgreen;
+  transition: .7s ease;
+}
+
+#social {
+  color: white;
+}
